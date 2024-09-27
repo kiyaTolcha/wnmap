@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nmap Multi-Scanner</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1>Nmap Multi-Scanner</h1>
+    
+    <!-- Form to enter IP/Hostname -->
+    <form id="nmapForm">
+        <label for="target">Enter Target IP(s) (comma-separated):</label>
+        <input type="text" id="target" name="target" required>
+        <button type="submit">Run Nmap Scan</button>
+    </form>
+    
+    <!-- Section to display the results -->
+    <h2>Scan Results</h2>
+    <table id="resultsTable">
+        <thead>
+            <tr>
+                <th>IP Address</th>
+                <th>Status</th>
+                <th>Ports</th>
+                <th>Progress</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="resultsBody">
+            <!-- Scan results will be dynamically inserted here -->
+        </tbody>
+    </table>
+
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+</html>
