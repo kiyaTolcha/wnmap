@@ -77,4 +77,4 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 - [Flask](https://flask.palletsprojects.com/) for web framework.
 - [Nmap](https://nmap.org/) for network scanning.
 ## ScreenShots
-- [Alt text](/schreenshots/screenshot.png?raw=true "Optional Title")
+- [Alt text](/ScreenShots/screenshot.png?raw=true "Screenshot")
