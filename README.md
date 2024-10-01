@@ -1,4 +1,4 @@
-# Nmap Multi-Scanner
+# Web Nmap Multi-Scanner
 
 A web-based application that allows users to perform multiple Nmap scans concurrently on specified IP addresses or hostnames. The results are displayed in an organized table format, showing the scan progress, status, and open ports for each target.
 
